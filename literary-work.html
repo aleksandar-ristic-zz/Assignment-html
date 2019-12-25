@@ -1,29 +1,114 @@
 <!DOCTYPE html>
-<html lang='sr'>
+<html lang="en" dir="ltr">
     <head>
-        <meta charset='utf-8'>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <title>Mihajlo Idvorski Pupin- Literary Work</title>
+        <style>
+            table {
+                font-family: 'Courier New', Courier, monospace;
+                border: 1px solid black;
+                width: 100%;
+                margin: 0 auto;
+            }
+            th {
+        padding: 6px;
+      }
+
+      td {
+        padding: 4px;
+      }
+
+      th,
+      td {
+        border: solid 1px rgb(152, 234, 236);
+      }
+
+      tr {
+        background-color: aqua;
+      }
+
+      tr.even {
+        background-color: rgb(206, 214, 214);
+      }
+
+      #naslov {
+        background-color: rgb(82, 76, 170);
+        color: darkblue;
+      }
+      span {
+          font-weight: 700;
+      }
+
+        </style>
     </head>
     <body>
-        <ul>
-            <li><a href="index.html">Main Page</a></li>
-            <li><a href="early-life-and-education.html">Early Life and Education</a></li>
-            <li><a href="literary-work.html">Literary Work</a></li>
-            <li><a href="pupin-coils.html">Pupin Coils</a></li>
-        </ul>
-        <h1>Literary work</h1>
-         <p>Besides his patents he published several dozen scientific disputes, articles, reviews and a 396-page autobiography under<br>
-            the name Michael Pupin, From Immigrant to Inventor (Scribner's, 1923). He won the annual Pulitzer Prize for Biography or<br>
-            Autobiography. It was published in Serbian in 1929 under the title From pastures to scientist (Od pašnjaka do naučenjaka).</p> 
-         <p>Beside this he also published:</p>
-             <ul>
-                 <li>Pupin Michael: Der Osmotische Druch und seine Beziehung zur Freien Energie, Inaugural Dissertation zur Erlangung der Doctorwurde, Buchdruckerei von Gustav Shade, Berlin, June, 1889.</li>
-                 <li>Pupin Michael: Thermodynamics of Reversible Cycles in Gases and Saturated Vapors, John Wiley & Sons. 1894.</li>
-                 <li>Pupin Michael: Serbian Orthodox Church, J. Murray. London, 1918.</li>
-                 <li>Pupin Michael: Yugoslavia. (In Association for International Conciliation Amer. Branch —Yugoslavia). American Association for International Conciliation. 1919.</li>
-                 <li>Pupin Michael: The New Reformation; from Physical to Spiritual Realities, Scribner, New York, 1927.</li>
-                 <li>Pupin Michael: Romance of the Machine, Scribner, New York, 1930.</li>
-                 <li>Pupin Michael: Discussion by M. Pupin and other prominent engineers in “Toward Civilization, edited by C. A. Beard. Longmans, Green& Co. New York, 1930.</li>
-             </ul>
+        <header>
+            <h1>Literary work</h1>
+            </header>
+            <nav>
+                <a href="index.html">Main Page</a>
+                <a href="early-life-and-education.html">Early Life and Education</a>
+                <a href="literary-work.html">Literary Work</a>
+                <a href="pupin-coils.html">Pupin Coils</a>
+             </nav><aside>
+                 <p>Besides his patents he published several dozen scientific disputes, articles, reviews and a 396-page autobiography under
+                 the name Michael Pupin, From Immigrant to Inventor (Scribner's, 1923). He won the annual Pulitzer Prize for Biography or
+                 Autobiography. It was published in Serbian in 1929 under the title From pastures to scientist (Od pašnjaka do naučenjaka).</p> 
+                 <p><span>Besides this he also published:</span></p>
+             <table>
+                 <tr id="#naslov">
+                     <th>Title</th>
+                     <th>Publisher</th>
+                     <th>Place</th>
+                     <th>Year</th>
+                 </tr>
+                 <tr class="even">
+                     <th>Pupin Michael: Der Osmotische Druch und seine Beziehung zur Freien Energie, Inaugural Dissertation zur Erlangung der Doctorwurde</th>
+                     <th> Buchdruckerei von Gustav Shade</th>
+                     <th>Berlin</th>
+                     <th>June, 1889</th>
+                 </tr>
+                 <tr>
+                     <th>Pupin Michael: Thermodynamics of Reversible Cycles in Gases and Saturated Vapors</th>
+                     <th>John Wiley & Sons</th>
+                     <th></th>
+                     <th>1894</th>
+                 </tr>
+                 <tr class="even">
+                     <th>Pupin Michael: Serbian Orthodox Church</th>
+                     <th>J. Murray</th>
+                     <th>London</th>
+                     <th>1918</th>
+                 </tr>
+                 <tr>
+                     <th>Pupin Michael: Yugoslavia. (In Association for International Conciliation Amer. Branch —Yugoslavia)</th>
+                     <th>American Association for International Conciliation</th>
+                     <th></th>
+                     <th>1919</th>
+                 </tr>
+                 <tr class="even">
+                     <th>Pupin Michael: The New Reformation; from Physical to Spiritual Realities</th>
+                     <th>Scribner</th>
+                     <th>New York</th>
+                     <th>1927</th>
+                 </tr>
+                 <tr>
+                     <th>Pupin Michael: Romance of the Machine</th>
+                     <th>Scribner</th>
+                     <th>New York</th>
+                     <th>1930</th>
+                 </tr>
+                 <tr class="even">
+                     <th>Pupin Michael: Discussion by M. Pupin and other prominent engineers in “Toward Civilization edited by C. A. Beard</th>
+                     <th>Longmans, Green& Co</th>
+                     <th>New York</th>
+                     <th>1930</th>
+                 </tr>
+             </table>
+             </aside>
+         <footer>
+                &copy;ITA19 Assignment
+         </footer>  
     </body>
 </html>
